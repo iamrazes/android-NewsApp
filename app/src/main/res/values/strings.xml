@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">News</string>
+    <string name="image">Image Illustration</string>
+    <string name="none_data">.................</string>
 </resources>

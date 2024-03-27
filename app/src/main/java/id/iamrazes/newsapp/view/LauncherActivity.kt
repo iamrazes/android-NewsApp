@@ -1,4 +1,4 @@
-package id.iamrazes.newsapp
+package id.iamrazes.newsapp.view
 
 import android.content.Context
 import android.content.DialogInterface
@@ -9,6 +9,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AlertDialog
+import id.iamrazes.newsapp.R
 
 @Suppress("DEPRECATION")
 class LauncherActivity : AppCompatActivity() {

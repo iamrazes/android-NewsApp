@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "620245107620",
+    "project_id": "newsapp-2a403",
+    "storage_bucket": "newsapp-2a403.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620245107620:android:f1648c31d80896fde97731",
+        "android_client_info": {
+          "package_name": "id.iamrazes.newsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb0krjrCcps14duSe1NjP0TQXfDD7OWwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

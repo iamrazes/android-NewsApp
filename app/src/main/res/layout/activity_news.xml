@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     tools:context=".view.NewsActivity">
 
 
@@ -20,20 +19,21 @@
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="News App"
+            android:text="Breaking News"
             android:textSize="30sp"
-            android:textColor="@color/black"
+            android:paddingHorizontal="24sp"
+            android:paddingVertical="20sp"
+
             android:textStyle="bold"
-            android:layout_marginStart="@dimen/main_margin_view"
-            android:layout_marginTop="@dimen/main_margin_view"/>
+            />
 
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:text="Kumpulan berita harian di indonesia"
-            android:textSize="20sp"
+            android:text="Indeks berita terkini dan terbaru hari ini dari peristiwa, berita unik, dan liputan khusus di Indonesia dan mancanegara."
+            android:textSize="14sp"
             android:layout_marginStart="@dimen/main_margin_view"
+            android:layout_marginEnd="@dimen/main_margin_view"
             android:layout_marginTop="@dimen/main_margin_view_10"/>
 
         <com.google.android.material.card.MaterialCardView
@@ -56,8 +56,8 @@
                     android:id="@+id/newsImage"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
-                    android:scaleType="centerCrop"
                     android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/image_empty"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"

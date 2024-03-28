@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+
     tools:context=".view.DetailNewsActivity">
 
     <ScrollView
@@ -79,9 +79,11 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:clickable="true"
         android:elevation="10dp"
         android:src="@drawable/icon_share"
+        app:tint="@android:color/white"
         android:padding="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
